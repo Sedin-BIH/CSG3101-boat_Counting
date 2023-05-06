@@ -1,0 +1,6 @@
+use older numpy version, "pip install "numpy<1.24"" 
+installs numpy-1.23.5 to avoid np.float error
+
+pip install -e .[dev] instead of what it says
+
+choose output directory of vessel_counts.txt file in the predict.py file under "def write_counts_to_file" definition.
