@@ -1,4 +1,0 @@
-Numbers of Boats Leaving:
-boat: 1
-
-Number of Boats Entering:
