@@ -8,3 +8,6 @@ https://drive.google.com/drive/folders/13iedvAj6RTGr7j9CryArhS_Se16AD-AZ?usp=sha
 The training, validation and Testing components are split into the following:
 70% for training, 20% for validation and 10% for testing. If you are looking to use your own dataset i.e the Recreational Boat Fishing Dataset it must be in YOLO format with Frames seperated and labels in a seperate .txt file as seen in the Compressed Zip File of the Singapore Maritime Dataset.
 
+Deep-SORT will need to be installed using this link due to the large size of the file: https://drive.google.com/drive/folders/17cNkHHhImjZ2-mnd8XfYnCSFeh8pCvkf?usp=share_link
+
+The trained weights on the dataset can also be found in this link: https://drive.google.com/file/d/1G4ek_D5-cZJsxySJsetkGfgbGHGVW2kD/view?usp=sharing
