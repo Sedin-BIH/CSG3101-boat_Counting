@@ -11,3 +11,7 @@ The training, validation and Testing components are split into the following:
 Deep-SORT will need to be installed using this link due to the large size of the file: https://drive.google.com/drive/folders/17cNkHHhImjZ2-mnd8XfYnCSFeh8pCvkf?usp=share_link
 
 The trained weights on the dataset can also be found in this link: https://drive.google.com/file/d/1G4ek_D5-cZJsxySJsetkGfgbGHGVW2kD/view?usp=sharing
+
+Using the GUI: 
+1. Download and extract the repository, the "Yolov8-DeepSORT-Object-Tracking" along with the "gui.py" file should be placed seperated in your default user file system (for example: C:\Users\admin).
+2. Install deep-Sort from the above link, aswell as 
