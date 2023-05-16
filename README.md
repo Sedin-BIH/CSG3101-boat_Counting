@@ -12,6 +12,14 @@ Deep-SORT will need to be installed using this link due to the large size of the
 
 The trained weights on the dataset can also be found in this link: https://drive.google.com/file/d/1G4ek_D5-cZJsxySJsetkGfgbGHGVW2kD/view?usp=sharing
 
-Using the GUI: 
-1. Download and extract the repository, the "Yolov8-DeepSORT-Object-Tracking" along with the "gui.py" file should be placed seperated in your default user file system (for example: C:\Users\admin).
-2. Install deep-Sort from the above link, aswell as 
+Quick start guide: 
+1. Download and extract the repository, the "Yolov8-DeepSORT-Object-Tracking" folder along with the "gui.py" file should be placed seperated in your default user file system (for example: C:\Users\admin).
+2. Install deep-Sort from the above link.
+3. In CMD run "cd YOLOv8-DeepSORT-Object-Tracking", then "pip install -r requirements.txt"
+4. Download the weights from the above link and place them in the folder: "YOLOv8-DeepSORT-Object-Tracking\ultralytics\yolo\v8\detect"
+5. Double click the gui.py file in your file stystem to launch the GUI. Here you can select whether to show a live input or not.
+6. A TXT file of the results (vessel_counts.txt) can be found in: "YOLOv8-DeepSORT-Object-Tracking\ultralytics\yolo\v8\detect" once processing is complete. A MP4 file of the processed video can be found in "YOLOv8-DeepSORT-Object-Tracking\runs\detect" in the relevant sub folder (train1, train2, etc...)
+
+If an error occurs, troubleshooting can be done by opening CMD and running: "cd YOLOv8-object-tracking-blurring-counting/ultralytics/yolo/v8/detect" then place a video named "test1.mp4" in that folder for testing purposes.
+Run "python predict.py model=best.pt source="test1.mp4" show=True"
+If an error occurs it will generally be due to packages not installed or packages being out of date. Identify the problem packages in the error read out and rectify the issue with "pip install ...".
